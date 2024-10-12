@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.15)
 
 # Set the project name and version
-project(MyProject VERSION 1.0 LANGUAGES CXX)
+project(App VERSION 1.0 LANGUAGES CXX)
 
 # Enable C++23
 set(CMAKE_CXX_STANDARD 20)
@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(include)
 
 # Add the executable target (replace main.cc with your actual source files)
-add_executable(my_project src/main.cc)
+add_executable(app src/main.cc)
 
 # Optionally add additional libraries if required
-# target_link_libraries(my_project some_library)
+# target_link_libraries(app some_library)
